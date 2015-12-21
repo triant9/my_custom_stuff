@@ -52,10 +52,10 @@
 	{
 		"ControlName"		"ImagePanel"
 		"fieldName"		"DisguiseNamesBG"
-		"xpos"			"35"
+		"xpos"			"18"
 		"ypos"			"410"
         "zpos"          "-4"
-		"wide"			"160"
+		"wide"			"180"
 		"tall"			"20"
 		"fillcolor"		"DarkGray"
 		"visible"		"1"
@@ -66,7 +66,7 @@
 	{	
 		"ControlName"	"CExLabel"
 		"fieldName"		"DisguiseNameLabel"
-		"font"			"Medium12"
+		"font"			"solFontRegular12"
 		"xpos"			"71"
 		"ypos"			"408"
 		"zpos"			"1"
@@ -83,9 +83,9 @@
 	{	
 		"ControlName"	"CExLabel"
 		"fieldName"		"WeaponNameLabel"
-		"font"			"NoveMedium8"
+		"font"			"solFontRegular11"
 		"xpos"			"71"
-		"ypos"			"418"
+		"ypos"			"419"
 		"zpos"			"1"
 		"wide"			"124"
 		"tall"			"11"
@@ -99,7 +99,7 @@
 	{	
 		"ControlName"	"CExLabel"
 		"fieldName"		"WeaponNameLabelShadow"
-		"font"			"Medium10"
+		"font"			"solFontRegular10"
 		"xpos"			"51"
 		"ypos"			"442"
 		"zpos"			"1"
@@ -116,7 +116,7 @@
 	{
 		"ControlName"		"EditablePanel"
 		"fieldName"		"SpectatorGUIHealth"
-		"xpos"			"27"
+		"xpos"			"18"
 		"ypos"			"400"
 		"wide"			"48"
 		"tall"			"55"

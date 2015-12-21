@@ -5,7 +5,7 @@
 		"ControlName"		"CWaveStatusPanel"
 		"fieldName"			"WaveStatusPanel"
 		"xpos"				"c-300"
-		"ypos"				"-22"
+		"ypos"				"0"
 		"zpos"				"0"
 		"wide"				"600"
 		"tall"				"67"
@@ -19,12 +19,12 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"PopFileLabel"
-		"font"			"Default"
+		"font"			"solFontRegular12"
 		"labelText"		"%popfile%"
 		"textAlignment"	"center"
-		"xpos"			"c-324"
-		"ypos"			"r150"
-		"wide"			"178"
+		"xpos"			"c-354"
+		"ypos"			"r148"
+		"wide"			"278"
 		"tall"			"15"
 		"fgcolor"		"234 234 234 255"
 	}
@@ -43,7 +43,7 @@
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"DifficultyLabel"
-			"font"			"ChatFont"
+			"font"			"solFontRegular12"
 			"labelText"		"#TF_MvM_Difficulty"
 			"textAlignment"	"west"
 			"xpos"			"c117"
@@ -57,7 +57,7 @@
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"DifficultyValue"
-			"font"			"ChatFont"
+			"font"			"solFontRegular12"
 			"labelText"		"%difficultyvalue%"
 			"textAlignment"	"east"
 			"xpos"			"c140"
@@ -194,6 +194,20 @@
 			"tall"			"100"
 			"wide"			"200"
 			"visible"		"1"
+		}
+		
+		"RespecStatusLabel"
+		{
+			"ControlName"	"CExLabel"
+			"fieldName"		"RespecStatusLabel"
+			"font"			"solFontRegular12"
+			"labelText"		"%respecstatus%"
+			"textAlignment" "east"
+			"xpos"			"c10"
+			"ypos"			"r148"
+			"wide"			"275"
+			"tall"			"15"
+			"fgcolor"		"tanlight"
 		}
 	}
 }

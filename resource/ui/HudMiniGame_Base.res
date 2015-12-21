@@ -60,7 +60,7 @@
 		"textAlignment"	"east"	
 		"labelText"		"%bluescore%"
 		"font"			"solFontRegular18"
-		"fgcolor"		"Blue"s
+		"fgcolor"		"Blue"
 	}	
 		
 	"BlueScoreShadow"

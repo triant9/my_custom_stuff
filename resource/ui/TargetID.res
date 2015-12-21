@@ -36,7 +36,7 @@
 		"pinCorner"		"0"
 		"visible"		"0"
 		"enabled"		"0"
-		"image"			"../hud/color_panel_blu"
+		"image"			"replay/thumbnails/bg_blue"
 		
 		"src_corner_height"		"23"
 		"src_corner_width"		"23"
@@ -56,14 +56,13 @@
 		"pinCorner"		"0"
 		"visible"		"0"
 		"enabled"		"0"
-		"image"			"../hud/color_panel_red"
+		"image"			"replay/thumbnails/bg_red"
 		
 		"src_corner_height"		"23"
 		"src_corner_width"		"23"
 		"draw_corner_width"		"0"
 		"draw_corner_height" 	"0"
 	}
-	
 	
 	"BG"
     {
@@ -183,7 +182,7 @@
 	{
 		"ControlName"	"ImagePanel"
 		"fieldName"		"KillStreakIcon"
-		"xpos"			"56"
+		"xpos"			"52"
 		"ypos"			"4"
 		"zpos"			"12"
 		"wide"			"10"

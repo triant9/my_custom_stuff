@@ -1,219 +1,5 @@
 "Resource/UI/HudPlayerHealth.res"
 {
-	//crosshairs
-
-	"Crosshair_vertical"
-	{
-		"ControlName"	"ImagePanel"
-		"fieldName"		"VerticalLine"
-		"xpos"			"427"
-		"xpos_lodef"	"279"
-		"xpos_hidef"	"309"
-		"ypos"			"75"
-		"zpos"			"-5"
-		"wide"			"1"
-		"tall"			"154"
-		"tall_lodef"	"206"
-		"tall_hidef"	"212"
-		"autoResize"	"0"
-		"pinCorner"		"0"
-		"visible"		"1"
-		"enabled"		"1"
-		"fillcolor"		"255 255 255 255"
-		"alpha" "25"
-	}
-	"Crosshair_horizontal"
-	{
-		"ControlName"	"ImagePanel"
-		"fieldName"		"VerticalLine"
-		"xpos"			"40"
-		"xpos_lodef"	"279"
-		"xpos_hidef"	"309"
-		"ypos"			"240"
-		"zpos"			"-5"
-		"wide"			"374"
-		"tall"			"1"
-		"tall_lodef"	"206"
-		"tall_hidef"	"212"
-		"autoResize"	"0"
-		"pinCorner"		"0"
-		"visible"		"1"
-		"enabled"		"1"
-		"fillcolor"		"255 255 255 255"
-		"alpha" "25"
-	}
-	"Crosshair_horizontal"
-	{
-		"ControlName"	"ImagePanel"
-		"fieldName"		"VerticalLine"
-		"xpos"			"439"
-		"xpos_lodef"	"279"
-		"xpos_hidef"	"309"
-		"ypos"			"240"
-		"zpos"			"-5"
-		"wide"			"374"
-		"tall"			"1"
-		"tall_lodef"	"206"
-		"tall_hidef"	"212"
-		"autoResize"	"0"
-		"pinCorner"		"0"
-		"visible"		"1"
-		"enabled"		"1"
-		"fillcolor"		"255 255 255 255"
-		"alpha" "25"
-	}
-	"dark_top"
-	{
-		"ControlName"	"ImagePanel"
-		"fieldName"		"VerticalLine"
-		"xpos"			"427"
-		"xpos_lodef"	"279"
-		"xpos_hidef"	"309"
-		"ypos"			"191"
-		"zpos"			"-5"
-		"wide"			"1"
-		"tall"			"38"
-		"tall_lodef"	"206"
-		"tall_hidef"	"212"
-		"autoResize"	"0"
-		"pinCorner"		"0"
-		"visible"		"1"
-		"enabled"		"1"
-		"fillcolor"		"255 255 255 255"
-		"alpha" "40"
-	}
-//	"dark_bottom"
-//	{
-//		"ControlName"	"ImagePanel"
-//		"fieldName"		"VerticalLine"
-//		"xpos"			"427"
-//		"xpos_lodef"	"279"
-//		"xpos_hidef"	"309"
-//		"ypos"			"252"
-//		"zpos"			"-5"
-//		"wide"			"1"
-//		"tall"			"38"
-//		"tall_lodef"	"206"
-//		"tall_hidef"	"212"
-//		"autoResize"	"0"
-//		"pinCorner"		"0"
-//		"visible"		"1"
-//		"enabled"		"1"
-//		"fillcolor"		"255 255 255 255"
-//		"alpha" "40"
-//	}
-	"dark_left"
-	{
-		"ControlName"	"ImagePanel"
-		"fieldName"		"VerticalLine"
-		"xpos"			"365"
-		"xpos_lodef"	"279"
-		"xpos_hidef"	"309"
-		"ypos"			"240"
-		"zpos"			"-5"
-		"wide"			"50"
-		"tall"			"1"
-		"tall_lodef"	"206"
-		"tall_hidef"	"212"
-		"autoResize"	"0"
-		"pinCorner"		"0"
-		"visible"		"1"
-		"enabled"		"1"
-		"fillcolor"		"255 255 255 255"
-		"alpha" "40"
-	}
-	"dark_right"
-	{
-		"ControlName"	"ImagePanel"
-		"fieldName"		"VerticalLine"
-		"xpos"			"439"
-		"xpos_lodef"	"279"
-		"xpos_hidef"	"309"
-		"ypos"			"240"
-		"zpos"			"-5"
-		"wide"			"50"
-		"tall"			"1"
-		"tall_lodef"	"206"
-		"tall_hidef"	"212"
-		"autoResize"	"0"
-		"pinCorner"		"0"
-		"visible"		"1"
-		"enabled"		"1"
-		"fillcolor"		"255 255 255 255"
-		"alpha" "40"
-	}
-	xHairLine1
-	{
-		"controlName" "CExLabel"
-		"fieldName" "xHairLine1"
-		"visible" "1"
-		"enabled" "1"
-		"zpos" "1"
-
-		"xpos" "c-100"
-		"ypos" "c-117"
-		"wide" "201"
-		"tall" "198"
-
-		"font" "xHairLine"
-		"labelText" "|"
-		"fgcolor" "255 255 255 100"
-		"textAlignment" "center"
-	}
-	xHairLine2
-	{
-		"controlName" "CExLabel"
-		"fieldName" "xHairLine2"
-		"visible" "1"
-		"enabled" "1"
-		"zpos" "1"
-
-		"xpos" "c-100"
-		"ypos" "c-83"
-		"wide" "201"
-		"tall" "196"
-
-		"font" "xHairLine"
-		"labelText" "|"
-		"fgcolor" "255 255 255 100"
-		"textAlignment" "center"
-	}
-	xHairLine3
-	{
-		"controlName" "CExLabel"
-		"fieldName" "xHairLine3"
-		"visible" "1"
-		"enabled" "1"
-		"zpos" "1"
-
-		"xpos" "c-83"
-		"ypos" "c-104"
-		"wide" "201"
-		"tall" "197"
-
-		"font" "xHairLine"
-		"labelText" "__"
-		"fgcolor" "255 255 255 100"
-		"textAlignment" "center"
-	}
-	xHairLine4
-	{
-		"controlName" "CExLabel"
-		"fieldName" "xHairLine4"
-		"visible" "1"
-		"enabled" "1"
-		"zpos" "1"
-
-		"xpos" "c-119"
-		"ypos" "c-104"
-		"wide" "201"
-		"tall" "197"
-
-		"font" "xHairLine"
-		"labelText" "__"
-		"fgcolor" "255 255 255 100"
-		"textAlignment" "center"
-	}
 	CrossHairCircleFilling
 	{
 		"controlName"	"CExLabel"
@@ -233,10 +19,91 @@
 		
 		"fgcolor"		"0 0 0 0"
 	}
-
 	
-	//health
-
+	"Crosshair_vertical"
+	{
+		"ControlName"		"ImagePanel"
+		"fieldName"		"VerticalLine"
+		"xpos"			"427"
+		"xpos_lodef"	"279"
+		"xpos_hidef"	"309"
+		"ypos"			"75"
+		"zpos"			"-5"
+		"wide"			"1"
+		"tall"			"154"
+		"tall_lodef"	"206"
+		"tall_hidef"	"212"
+		"autoResize"	"0"
+		"pinCorner"		"0"
+		"visible"		"1"
+		"enabled"		"1"
+		"fillcolor"		"0 175 250 255"
+		"alpha" "25"
+	}
+	
+	"Crosshair_vertical"
+	{
+		"ControlName"		"ImagePanel"
+		"fieldName"		"VerticalLine"
+		"xpos"			"427"
+		"xpos_lodef"	"279"
+		"xpos_hidef"	"309"
+		"ypos"			"254"
+		"zpos"			"-5"
+		"wide"			"1"
+		"tall"			"54"
+		"tall_lodef"	"206"
+		"tall_hidef"	"212"
+		"autoResize"	"0"
+		"pinCorner"		"0"
+		"visible"		"1"
+		"enabled"		"1"
+		"fillcolor"		"0 175 250 255"
+		"alpha" "25"
+	}
+	
+	"Crosshair_horizontal"
+	{
+		"ControlName"		"ImagePanel"
+		"fieldName"		"VerticalLine"
+		"xpos"			"40"
+		"xpos_lodef"	"279"
+		"xpos_hidef"	"309"
+		"ypos"			"240"
+		"zpos"			"-5"
+		"wide"			"374"
+		"tall"			"1"
+		"tall_lodef"	"206"
+		"tall_hidef"	"212"
+		"autoResize"	"0"
+		"pinCorner"		"0"
+		"visible"		"1"
+		"enabled"		"1"
+		"fillcolor"		"0 175 250 255"
+		"alpha" "25"
+	}
+	
+	"Crosshair_horizontal"
+	{
+		"ControlName"		"ImagePanel"
+		"fieldName"		"VerticalLine"
+		"xpos"			"439"
+		"xpos_lodef"	"279"
+		"xpos_hidef"	"309"
+		"ypos"			"240"
+		"zpos"			"-5"
+		"wide"			"374"
+		"tall"			"1"
+		"tall_lodef"	"206"
+		"tall_hidef"	"212"
+		"autoResize"	"0"
+		"pinCorner"		"0"
+		"visible"		"1"
+		"enabled"		"1"
+		"fillcolor"		"0 175 250 255"
+		"alpha" "25"
+	}
+	
 	"HealthBG"	
 	{
 		"ControlName"	"CExImageButton"
@@ -655,4 +522,3 @@
 		"HealthDeathWarningColor"	"Red"
 	}
 }
-

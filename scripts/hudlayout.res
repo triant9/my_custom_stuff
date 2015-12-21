@@ -271,7 +271,7 @@
 		"tall"			"32"
 		"font"			"CrossHairCircle"
 		"labelText"		"i"
-		"fgcolor"		"255 0 200 255"
+		"fgcolor"		"255 255 255 255"
 		"textAlignment"	"center"	
 	}
 	
@@ -912,7 +912,7 @@
 		"visible" 	"1"
 		"enabled" 	"1"
 		"xpos"		"c-120"
-		"ypos"		"300"
+		"ypos"		"350"
 		"wide"	 	"f0"
 		"tall"	 	"50" 
 		"priority"	"40"
@@ -924,7 +924,7 @@
 		"visible" 	"0"
 		"enabled" 	"1"
 		"xpos"		"c-190"
-		"ypos"		"274"
+		"ypos"		"273"
 		"wide"	 	"f0"
 		"tall"	 	"50"
 		"priority"	"35"
@@ -949,7 +949,7 @@
 		"visible"	"1"
 		"enabled"	"1"
 		"xpos"		"-18"
-		"ypos"		"0"
+		"ypos"		"-100"
 		"wide"		"f0"
 		"tall"		"480"
 		
@@ -991,7 +991,7 @@
 		"fieldName" "HudMannVsMachineStatus"
 		"visible"	"1"
 		"enabled"	"1"
-		"xpos"		"-20"
+		"xpos"		"0"
 		"ypos"		"0"
 		"zpos"		"1"
 		"wide"		"f0"
@@ -1435,7 +1435,7 @@
 		"visible"				"1"
 		"enabled"				"1"
 		"xpos"					"0"		
-		"ypos"					"0"		
+		"ypos"					"175"		
 		"wide"					"f0"
 		"tall"					"480"
 	}
@@ -1601,8 +1601,8 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"xpos"			"c-60"	
-		"ypos"			"r146"	
-		"wide"			"118"
+		"ypos"			"r153"	
+		"wide"			"120"
 		"tall"			"60"
 	}	
 
@@ -1934,7 +1934,7 @@
 		"bgcolor_override"	"0 0 0 0"
 		"PaintBackgroundType"	"0" // rounded corners
 	}
-		
+	
 	"HudMenuTauntSelection"
 	{
 		"fieldName" 	"HudMenuTauntSelection"

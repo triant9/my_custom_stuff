@@ -1,6 +1,6 @@
 "Resource/UI/HudItemEffectMeter_SpyKnife.res"
 {
-	HudItemEffectMeter
+		HudItemEffectMeter
 	{
 		"fieldName"		"HudItemEffectMeter"
 		"visible"		"1"
@@ -8,9 +8,7 @@
 		"xpos"			"c-60"
 		"ypos"			"r160"
 		"wide"			"120"
-		"tall"			"20"
-        "MeterFG"		"White"
-		"MeterBG"		"HudBG"
+		"tall"			"10"
 	}
 	
 	"ItemEffectMeterBG"
@@ -37,16 +35,16 @@
 		"ControlName"			"CExLabel"
 		"fieldName"			"ItemEffectMeterLabel"
 		"xpos"			"0"
-		"ypos"			"-3"
+		"ypos"			"2"
 		"zpos"			"3"
 		"wide"			"120"
-		"tall"			"12"
+		"tall"			"9"
 		"visible"				"1"
 		"enabled"				"1"
 		"labelText"			"#TF_Ball"
-		"fgcolor_override" "MeterText"
-		"textAlignment"			"center"
-		"font"				"NoveLight8"
+		"fgcolor_override" "MeterText3"
+		"textAlignment"			"west"
+		"font"				"solFontRegular8"
 	}
 
 	"ItemEffectMeter"
@@ -58,14 +56,13 @@
 		"ypos"			"1"
 		"zpos"			"2"
 		"wide"			"120"
-		"tall"			"6"				
+		"tall"			"2"				
 		"autoResize"	"0"
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
 		"textAlignment"	"Left"
-		"bgcolor_override" "DarkGray"
-		"fgcolor_override" "White"
+		"bgcolor_override" "0 0 0 175"
 		"dulltext"		"0"
 		"brighttext"	"0"
 	}			

@@ -18,12 +18,12 @@
 	{
 		"ControlName"	"CTFClassImage"
 		"fieldName"		"PlayerStatusClassImage"
-		"xpos"			"9999"	[$WIN32]
-		"xpos_minmode"	"9999"	[$WIN32]
-		"ypos"			"9999"	[$WIN32]
-		"ypos_minmode"	"9999"	[$WIN32]
-		"xpos"			"9999"	[$X360]
-		"ypos"			"9999"	[$X360]
+		"xpos"			"25"	[$WIN32]
+		"xpos_minmode"	"15"	[$WIN32]
+		"ypos"			"r88"	[$WIN32]
+		"ypos_minmode"	"r54"	[$WIN32]
+		"xpos"			"57"	[$X360]
+		"ypos"			"r110"	[$X360]
 		"zpos"			"2"
 		"wide"			"75"
 		"wide_minmode"	"37"
@@ -72,10 +72,10 @@
 	{
 		"ControlName"	"CTFImagePanel"
 		"fieldName"		"PlayerStatusClassImageBG"
-		"xpos"			"9999"		[$WIN32]
-		"ypos"			"9999"	[$WIN32]
-		"xpos"			"9999"	[$X360]
-		"ypos"			"9999"	[$X360]
+		"xpos"			"9"		[$WIN32]
+		"ypos"			"r60"	[$WIN32]
+		"xpos"			"41"	[$X360]
+		"ypos"			"r82"	[$X360]
 		"zpos"			"1"		
 		"wide"			"100"
 		"tall"			"50"
@@ -125,8 +125,6 @@
 		"render_texture"	"0"
 		"fov"			"12"
 		"allow_rot"		"1"
-		
-		"disable_speak_event"		"1"
 				
 		"model"
 		{

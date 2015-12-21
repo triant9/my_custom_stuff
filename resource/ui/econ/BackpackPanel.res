@@ -58,7 +58,7 @@
 				"tall"			"13"
 				"visible"		"1"
 				"bgcolor_override"		"0 0 0 0"
-				"noitem_textcolor"		"117 107 94 255"
+				"noitem_textcolor"		"255 255 255 255"
 				"PaintBackgroundType"	"2"
 				"paintborder"	"1"
 				"textAlignment"	"center"
@@ -72,7 +72,7 @@
 			{
 				"ControlName"	"CExLabel"
 				"fieldName"		"New"
-				"font"			"FontStorePrice"
+				"font"			"solFontRegular10"
 				"textAlignment"	"east"
 				"ypos"			"0"
 				"xpos"			"0"
@@ -122,6 +122,7 @@
 		
 			"itemmodelpanel"
 			{
+				"inventory_image_type" "1" // High quality item image
 				"use_item_rendertarget" "0"
 				"allow_rot"				"0"
 			}
@@ -130,7 +131,7 @@
 			{
 				"ControlName"	"CExLabel"
 				"fieldName"		"New"
-				"font"			"FontStorePrice"
+				"font"			"solFontRegular10"
 				"textAlignment"	"east"
 				"xpos"			"rs1"
 				"zpos"			"15"
@@ -839,7 +840,7 @@
 		"end_tall"		"115"
 		"callout_inparents_x"	"c240"
 		"callout_inparents_y"	"290"
-		"next_explanation"		"DeleteExplanation"
+		"next_explanation"		"ContextExplanation"
 		
 		"TitleLabel"
 		{
@@ -1040,7 +1041,7 @@
 		}	
 	}	
 	
-	"DeleteExplanation"
+	"ContextExplanation"
 	{
 		"ControlName"	"CExplanationPopup"
 		"fieldName"		"DeleteExplanation"

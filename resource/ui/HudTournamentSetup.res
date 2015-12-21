@@ -74,7 +74,7 @@
 	{	
 		"ControlName"		"CExLabel"
 		"fieldName"		"EnterName"
-		"font"			"NoveLight10"
+		"font"			"solFontRegular10"
 		"fgcolor"		"Red/Blue"
         "textinsetx"	"0"
 		"use_proportional_insets" "1"
@@ -95,7 +95,7 @@
 	{	
 		"ControlName"		"CExLabel"
 		"fieldName"		"TournamenteLabel"
-		"font"			"Medium9"
+		"font"			"solFontRegular9"
 		"xpos"			"92"
 		"ypos"			"3"
 		"zpos"			"1"

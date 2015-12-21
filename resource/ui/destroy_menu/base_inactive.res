@@ -4,7 +4,7 @@
 	{	
 		"ControlName"	"CExLabel"
 		"fieldName"		"ItemNameLabel"
-		"font"			"NoveMedium14"
+		"font"			"solFontRegular14"
 		"xpos"			"0"
 		"ypos"			"r437"
 		"zpos"			"1"
@@ -78,10 +78,10 @@
 	{	
 		"ControlName"	"CExLabel"
 		"fieldName"		"NumberLabel"
-		"font"			"NoveMedium14"
+		"font"			"solFontRegular14"
 		"fgcolor"		"Black"
 		"xpos"			"0"
-		"ypos"			"67"
+		"ypos"			"68"
 		"zpos"			"1"
 		"wide"			"100"
 		"tall"			"19"

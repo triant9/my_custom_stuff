@@ -36,21 +36,21 @@
 				"xpos"        "0"
 				"ypos"        "0"
 				"zpos"        "2"
-				"wide"        "55"
+				"wide"        "50"
 				"tall"        "35"
 				"autoResize"		"0"
 				"pinCorner"		"0"
-				"fillcolor"		"DarkGray"
+				"fillcolor"		"0 0 0 0"
 				"visible"			"1"
 				"enabled"			"1"
 			
 			}
-									  			
+
 			"playername"
 			{
 				"ControlName"	"CExLabel"
 				"fieldName"		"playername"
-				"font"		"Regular9"
+				"font"		"solFontRegular9"
 				"xpos"			"5"
 				"ypos"			"24"
 				"zpos"			"5"
@@ -65,11 +65,29 @@
 					
 				if_mvm
 				{
-					"xpos"				"4"
+					"xpos"				"0"
 					"ypos"				"25"
 					"wide"				"48"
 					"textAlignment"		"center"
-					"font"				"Regular9"
+					"font"				"solFontRegular9"
+					"fgcolor"			"White"
+				}
+				if_competitive
+				{
+					"xpos"				"1"
+					"ypos"				"24"
+					"wide"				"48"
+					"textAlignment"		"center"
+					"font"				"solFontRegular9"
+					"fgcolor"			"White"
+				}
+				if_readymode
+				{
+					"xpos"				"1"
+					"ypos"				"24"
+					"wide"				"48"
+					"textAlignment"		"center"
+					"font"				"solFontRegular9"
 					"fgcolor"			"White"
 				}
 			}
@@ -96,6 +114,22 @@
 					"tall"			"20"
 					"image"			"../vgui/hud_connecting"
 				}
+				if_competitive
+				{
+					"xpos"			"5"
+					"ypos"			"4"
+					"wide"			"20"
+					"tall"			"20"
+					"image"			"../vgui/hud_connecting"
+				}
+				if_readymode
+				{
+					"xpos"			"5"
+					"ypos"			"4"
+					"wide"			"20"
+					"tall"			"20"
+					"image"			"../vgui/hud_connecting"
+				}
 			}
 			
 			"classimagebg"
@@ -109,10 +143,18 @@
 				"tall"			"20"
 				"visible"		"0"
 				"enabled"		"1"
-				"bgcolor_override"		"Black"
+				"bgcolor_override"		"DarkGray"
 				"PaintBackgroundType"	"0"
 				
 				if_mvm
+				{
+					"visible"		"1"
+				}
+				if_competitive
+				{
+					"visible"		"1"
+				}
+				if_readymode
 				{
 					"visible"		"1"
 				}
@@ -134,6 +176,12 @@
 				"TFFont"					"HudFontSmallest"
 				"HealthDeathWarningColor"	"HUDDeathWarning"
 				"TextColor"					"HudOffWhite"
+				
+				"if_readymode"
+				{
+					"xpos"		"9999"
+					"ypos"		"9999"
+				}
 			}
 			
 			"ReadyBG"
@@ -238,7 +286,7 @@
 				"tall"			"8"
 				"autoResize"	"0"
 				"pinCorner"		"0"
-				"visible"		"1"
+				"visible"		"0"
 				"labelText"		"%specindex%"
 				"textAlignment"	"north-west"
 				//"fgcolor"		"235 226 202 255"
@@ -246,7 +294,17 @@
 			
 			if_mvm
 			{
-				"wide"		"55"
+				"wide"		"50"
+				"tall"		"35"
+			}
+			if_competitive
+			{
+				"wide"		"50"
+				"tall"		"35"
+			}
+			if_readymode
+			{
+				"wide"		"50"
 				"tall"		"35"
 			}
 		}
@@ -256,6 +314,26 @@
 			"xpos"					"c-250"
 			"ypos"					"0"
 			"wide"					"500"
+			"tall"					"480"
+
+			"team1_player_base_y"			"66"
+			"team2_player_delta_x"			"52"
+		}
+		if_competitive
+		{
+			"xpos"					"c-427"
+			"ypos"					"0"
+			"wide"					"f0"
+			"tall"					"480"
+
+			"team1_player_base_y"			"66"
+			"team2_player_delta_x"			"52"
+		}
+		if_readymode
+		{
+			"xpos"					"c-427"
+			"ypos"					"0"
+			"wide"					"f0"
 			"tall"					"480"
 
 			"team1_player_base_y"			"66"
@@ -321,6 +399,14 @@
 		{
 			"visible"		"0"
 		}
+		if_competitive
+		{
+			"visible"		"1"
+		}
+		if_readymode
+		{
+			"visible"		"1"
+		}
 	}
 	"TournamentLabel"
 	{	
@@ -343,6 +429,14 @@
 		if_mvm
 		{
 			"visible"		"0"
+		}
+		if_competitive
+		{
+			"visible"		"1"
+		}
+		if_readymode
+		{
+			"visible"		"1"
 		}
 	}
 	
@@ -472,7 +566,7 @@
 	{	
 		"ControlName"		"CExLabel"
 		"fieldName"		"ReadyUpLabel"
-		"font"			"NoveMedium12"
+		"font"			"solFontRegular12"
 		"fgcolor"		"White"
         "textinsetx"	"0"
 		"use_proportional_insets" "0"
@@ -493,6 +587,14 @@
 		{
 			"visible"		"0"
 		}
+		if_competitive
+		{
+			"visible"		"0"
+		}
+		if_readymode
+		{
+			"visible"		"0"
+		}
 	}
 	"HudTournamentBGHelp"
 	{
@@ -505,11 +607,11 @@
 	{	
 		"ControlName"		"CExLabel"
 		"fieldName"		"TournamentInstructionsLabel"
-		"font"			"NoveMedium12"
+		"font"			"solFontRegular12"
 		"fgcolor"		"White"
-		"xpos"			"c9"
+		"xpos"			"c3"
 		"ypos"			"28"
-		"wide"			"24"
+		"wide"			"150"
 		"tall"			"15"
 		"zpos"			"1"
 		"autoResize"		"0"
@@ -518,14 +620,36 @@
 		"enabled"		"1"
 		"wrap"			"1"
 		"labelText"		"%readylabel%"
-		"textAlignment"		"north-west"
+		"textAlignment"		"center"
         
         if_mvm
 		{
-			"font"			"ChatFont"
+			"font"			"solFontRegular9"
             "textAlignment"		"center"
 			"xpos"			"218"
 			"ypos"			"100"
+			"wide"			"200"
+			"tall"			"20"
+			"zpos"			"3"
+			"visible"			"1"
+		}
+		if_competitive
+		{
+			"font"			"solFontRegular12"
+            "textAlignment"		"center"
+			"xpos"			"c-40"
+			"ypos"			"28"
+			"wide"			"200"
+			"tall"			"20"
+			"zpos"			"3"
+			"visible"			"1"
+		}
+		if_readymode
+		{
+			"font"			"solFontRegular12"
+            "textAlignment"		"center"
+			"xpos"			"c-40"
+			"ypos"			"28"
 			"wide"			"200"
 			"tall"			"20"
 			"zpos"			"3"
@@ -579,7 +703,7 @@
 		"ControlName"		"CExLabel"
 		"fieldName"		"CountdownLabel"
 		"font"			"Medium12Shadow"
-		"xpos"			"238"
+		"xpos"			"c0"
 		"ypos"			"114"
 		"wide"			"26"
 		"tall"			"25"

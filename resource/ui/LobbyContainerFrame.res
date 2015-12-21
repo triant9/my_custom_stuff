@@ -60,7 +60,7 @@
 		"autoResize"	"0"
 		"PaintBackgroundType"	"2"
 		"border"				"NoBorder"
-		"bgcolor_override"		"FrameGray"
+		"bgcolor_override"		"GrayBG"
 	}
 	"BackgroundFooter"
 	{
@@ -91,7 +91,7 @@
 		"autoResize"	"0"
 		"PaintBackgroundType"	"2"
 		"border"				"NoBorder"
-		"bgcolor_override"		"FrameGray"
+		"bgcolor_override"		"GrayBG"
 	}				
 	"FooterLine"
 	{
@@ -108,7 +108,7 @@
 			"autoResize"	"0"
 			"PaintBackgroundType"	"2"
 			"border"				"NoBorder"
-			"bgcolor_override"		"BlackBorder"
+			"bgcolor_override"		"GrayBG"
 	}				
 	
 	"Sheet"
@@ -136,7 +136,7 @@
 			"autoResize"	"0"
 			"PaintBackgroundType"	"2"
 			"border"				"NoBorder"
-			"bgcolor_override"		"BlackBorder"
+			"bgcolor_override"		"GrayBG"
 		}				
 		
 		"tabskv"

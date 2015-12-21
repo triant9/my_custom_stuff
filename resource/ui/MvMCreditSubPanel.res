@@ -4,7 +4,7 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"HeaderLabel"
-		"font"			"Medium14"
+		"font"			"solFontRegular14"
 		"labelText"		"%header%"
 		"textAlignment" "center"
 		"xpos"			"4"
@@ -24,27 +24,27 @@
 		"wide"			"190"
 		"tall"			"42"
 		"visible"		"0"
-		"bgcolor_override"		"20 20 20 50"
+		"bgcolor_override"		"Blank"
 	}
 	
 	"CreditCollectedTextLabel"
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"CreditCollectedTextLabel"
-		"font"			"Medium9"
+		"font"			"solFontRegular9"
 		"labelText"		"#TF_PVE_Collected"
 		"textAlignment" "north-west"
 		"xpos"			"10"
 		"ypos"			"34"
 		"wide"			"70"
-		"fgcolor"		"White"
+		"fgcolor"		"Green"
 	}
 	
 	"CreditCollectedCountLabel"
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"CreditCollectedCountLabel"
-		"font"			"Medium9"
+		"font"			"solFontRegular9"
 		"labelText"		"%creditscollected%"
 		"textAlignment" "north-east"
 		"xpos"			"63"
@@ -57,20 +57,20 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"CreditMissedTextLabel"
-		"font"			"Medium9"
+		"font"			"solFontRegular9"
 		"labelText"		"#TF_PVE_Missed"
 		"textAlignment" "north-west"
 		"xpos"			"10"
 		"ypos"			"51"
 		"wide"			"70"
-		"fgcolor"		"White"
+		"fgcolor"		"Red"
 	}
 	
 	"CreditMissedCountLabel"
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"CreditMissedCountLabel"
-		"font"			"Medium9"
+		"font"			"solFontRegular9"
 		"labelText"		"%creditsmissed%"
 		"textAlignment" "north-east"
 		"xpos"			"63"
@@ -83,26 +83,26 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"CreditCollectedTextLabel"
-		"font"			"Medium9"
+		"font"			"solFontRegular9"
 		"labelText"		"#TF_PVE_Bonus"
 		"textAlignment" "north-west"
 		"xpos"			"10"
 		"ypos"			"68"
 		"wide"			"70"
-		"fgcolor"		"White"
+		"fgcolor"		"255 255 0 255"
 	}
 	
 	"CreditBonusCountLabel"
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"CreditCollectedCountLabel"
-		"font"			"Medium9"
+		"font"			"solFontRegular9"
 		"labelText"		"%creditbonus%"
 		"textAlignment" "north-east"
 		"xpos"			"63"
 		"ypos"			"68"
 		"wide"			"30"
-		"fgcolor"		"Green"
+		"fgcolor"		"255 255 0 255"
 	}
 		
 	"CreditRatingLabelShadow"
@@ -123,7 +123,7 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"CreditCollectedTextLabel"
-		"font"			"Medium14"
+		"font"			"solFontRegular14"
 		"labelText"		"%rating%"
 		"textAlignment" "center"
 		"xpos"			"125"
